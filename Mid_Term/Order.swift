@@ -27,15 +27,13 @@ class Order
      func fprint() {
         print("Order number \(order_id)")
         print("Order Date \(order_date)")
-        for i in products_ordered.values
+        for (j,i) in products_ordered
         {
             i.fprint()
-            for j in products_ordered.keys
-            {
-            print("order quantity:  \(products_ordered.keys)")
-            }
-            
+            print("order quantity:  \(j)")
+
         }
+        
     
 }
 }
