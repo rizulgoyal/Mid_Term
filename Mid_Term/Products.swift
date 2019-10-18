@@ -26,8 +26,8 @@ class Products
     
     func fprint()
     {
-        print(self.product_id)
-        print(self.product_name)
+        print("Product ID \(self.product_id)")
+        print("Product Name \(self.product_name)")
         manu.fprint()
         
     }
